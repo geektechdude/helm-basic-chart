@@ -1,0 +1,13 @@
+appName: app-flask-hello
+deploymentName: dep-flask-hello
+servName: svc-flask-hello
+contatinerName: cont-flask-hello
+
+replicas: 2
+
+port: 5000
+
+image:
+  name: geektechstuff/flask-hello-world
+  tag: latest
+

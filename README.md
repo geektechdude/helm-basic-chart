@@ -1,2 +1,2 @@
 # Introduction
-A basic Helm chart to deploy some Flask (Python) containers and a Load Balancer.
+A basic Helm chart to deploy some Flask (Python) containers and a Load Balancer. This repository has been created as an example for https://geektechstuff.com/2026/03/26/helm-creating-a-chart-kubernetes/ , and as an app sync example for ArgoCD for https://geektechstuff.com/2026/03/27/introducing-argo-cd-and-gitops-kubernetes/ 

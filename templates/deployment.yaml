@@ -17,12 +17,12 @@ spec:
         image: geektechstuff/flask-hello-world:latest
         livenessProbe:
           tcpSocket:
-            port: 5000
+            port: {{ .Values.port }}
           initialDelaySeconds: 5
           periodSeconds: 5
           failureThreshold: 3
         ports:
-        - containerPort: 5000
+        - containerPort: {{ .Values.port }}
         resources:
           requests:
             cpu: 0.2

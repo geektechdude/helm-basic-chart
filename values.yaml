@@ -3,7 +3,7 @@ deploymentName: dep-flask-hello
 servName: svc-flask-hello
 contatinerName: cont-flask-hello
 
-replicas: 4
+replicas: 2
 
 port: 5000
 

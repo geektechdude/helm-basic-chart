@@ -22,3 +22,5 @@ version: 0.1.0
 # follow Semantic Versioning. They should reflect the version the application i>
 # It is recommended to use it with quotes.
 appVersion: "0.0.1"
+
+icon: https://geektechstuff.com/wp-content/uploads/2026/03/geektechstuff_icon.png

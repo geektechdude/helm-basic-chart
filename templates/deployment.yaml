@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: depflask
+  name: {{ .Values.deploymentName }}
 spec:
   replicas: {{ .Values.replicas }}
   selector:
@@ -13,7 +13,7 @@ spec:
         name: {{ .Values.appName }}
     spec:
       containers:
-      - name: flask-hello-world
+      - name: {{ .Values.contatinerName }}
         image: {{ .Values.image.name }}:{{ .Values.image.tag }}
         livenessProbe:
           tcpSocket:

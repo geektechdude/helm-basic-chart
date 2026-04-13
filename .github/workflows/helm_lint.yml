@@ -12,10 +12,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
-      # Runs a set of commands using the runners shell
       - name: Install Helm
         run: |
           sudo apt-get install curl gpg apt-transport-https --yes
@@ -24,7 +22,6 @@ jobs:
           sudo apt-get update
           sudo apt-get install helm
     
-      # Runs a single command using the runners shell
       - name: Run Helm Linter
         run: | 
           cd $GITHUB_WORKSPACE

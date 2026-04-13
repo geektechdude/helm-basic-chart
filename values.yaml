@@ -1,5 +1,5 @@
 appName: app-flask-hello
-deploymentName: dep-flask-hello
+deploymentName: dep-flask
 servName: svc-flask-hello
 contatinerName: cont-flask-hello
 
